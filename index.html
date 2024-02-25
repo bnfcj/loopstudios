@@ -12,10 +12,24 @@
       href="./images/favicon-32x32.png"
     />
 
+    <!-- Css -->
+    <link rel="stylesheet" href="public/main.css" />
     <title>Frontend Mentor | Loopstudios landing page</title>
   </head>
   <body class="page">
     <header class="header">
+      <picture>
+        <source
+          media="(max-width: 930.98px)"
+          srcset="./images/mobile/image-hero.jpg"
+        />
+        <source srcset="./images/desktop/image-hero.jpg" />
+        <img
+          src="./images/mobile/image-hero.jpg"
+          class="header__hero-img"
+          alt="VR gaming"
+        />
+      </picture>
       <div class="inner">
         <nav class="nav-primary nav-primary__header">
           <img

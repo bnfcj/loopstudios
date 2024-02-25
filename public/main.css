@@ -1,0 +1,12 @@
+.header__hero-img {
+  height: 100svh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.page {
+  margin: 0;
+  background-color: gold;
+}
+
+/*# sourceMappingURL=main.css.map */

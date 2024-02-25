@@ -1,9 +1,15 @@
-@use 'h1';
-@use 'header__hero-img';
-@use 'header';
-@use 'inner';
-@use 'logo';
-@use 'nav-links';
-@use 'nav-primary';
-@use 'nav-primary__btn';
-@use 'page';
+// Root
+@use "page";
+// Layout
+@use "inner";
+@use "grid";
+@use "grid--center";
+// Header
+@use "h1";
+@use "header__hero-img";
+@use "header";
+@use "nav-primary";
+@use "nav-primary__btn";
+// Reusable Blocks
+@use "logo";
+@use "nav-links";

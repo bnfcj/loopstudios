@@ -17,52 +17,298 @@
     <title>Frontend Mentor | Loopstudios landing page</title>
   </head>
   <body class="page">
-    <header class="header grid grid--center">
-      <picture class="grid--center__content">
+    <!-- header -->
+    <header class="header">
+      <picture class="header__picture">
         <source
-          media="(max-width: 930.98px)"
+          media="(max-width: 940.98px)"
           srcset="./images/mobile/image-hero.jpg"
         />
         <source srcset="./images/desktop/image-hero.jpg" />
+        <!-- header__bg -->
         <img
           src="./images/mobile/image-hero.jpg"
-          class="header__hero-img"
-          alt="VR gaming"
+          alt="VR gaming with eyeware"
+          class="header__bg"
         />
       </picture>
-      <div class="inner grid grid--center__content grid--center">
-        <nav class="grid--center__content">
-          <img
-            src="./images/logo.svg"
-            alt="Loopstudios logo"
-            class="logo logo--place--header"
-          />
-          <a href="" class="nav-primary__close nav-primary__btn">
-            <img
-              src="./images/icon-close.svg"
-              alt=""
-              class="nav-primary__btn-img"
-            />
-          </a>
-          <a href="" class="nav-primary__hamburger nav-primary__btn">
-            <img
-              src="./images/icon-hamburger.svg"
-              alt=""
-              class="nav-primary__btn-img"
-            />
-          </a>
-          <ul class="nav-links">
-            <li><a href="" class="nav-links__link">About</a></li>
-            <li><a href="" class="nav-links__link">Careers</a></li>
-            <li><a href="" class="nav-links__link">Events</a></li>
-            <li><a href="" class="nav-links__link">Products</a></li>
-            <li><a href="" class="nav-links__link">Support</a></li>
+      <!-- inner  -->
+      <div class="inner">
+        <!-- primary-nav -->
+        <nav class="primary-nav">
+          <!-- logo -->
+          <img src="./images/logo.svg" alt="loopside logo" />
+          <!-- pimary-nav__links -->
+          <ul class="primary-nav__links">
+            <!-- primary-nav__nav-items -->
+            <li class="primary-nav__items">
+              <!-- primary-nav__link -->
+              <a href="" class="primary-nav__link">About</a>
+            </li>
+            <li class="primary-nav__items">
+              <!-- primary-nav__link -->
+              <a href="" class="primary-nav__link">Careers</a>
+            </li>
+            <li class="primary-nav__items">
+              <!-- primary-nav__link -->
+              <a href="" class="primary-nav__link">Events</a>
+            </li>
+            <li class="primary-nav__items">
+              <!-- primary-nav__link -->
+              <a href="" class="primary-nav__link">Products</a>
+            </li>
+            <li class="primary-nav__items">
+              <!-- primary-nav__link -->
+              <a href="" class="primary-nav__link">Support</a>
+            </li>
           </ul>
         </nav>
-        <h1 class="h1 h1__header grid--center__content">
-          Immersive experiences that deliver
-        </h1>
+        <!-- header__h1 -->
+        <h1 class="header__h1">Immersive experiences that deliver</h1>
       </div>
     </header>
+    <!-- main -->
+    <main class="main">
+      <!-- inner -->
+      <div class="inner">
+        <!-- grid--8-col intro-article -->
+        <div class="grid--8-col intro-article">
+          <!-- col-5 intro-article__bg -->
+          <img
+            srcset="
+              ./images/mobile/image-interactive.jpg  654w,
+              ./images/desktop/image-interactive.jpg 731w
+            "
+            src="./images/mobile/image-interactive.jpg"
+            class="col-5 intro-article__bg"
+          />
+          <!-- col-3 intro-article__body -->
+          <div class="col-3 intro-article__body">
+            <!-- intro-arcticle__h2 -->
+            <h2 class="intro-article__h2">The leader in interactive VR</h2>
+            <!-- intro-article__p -->
+            <p class="intro-article__p">
+              Founded in 2011, Loopstudios has been producing world-class
+              virtual reality projects for some of the best companies around the
+              globe. Our award-winning creations have transformed businesses
+              through digital experiences that bind to their brand.
+            </p>
+          </div>
+        </div>
+        <!-- grid--8-col showcase-article -->
+        <div class="grid--8-col showcase-article">
+          <!-- showcase-article__h2 col-2-->
+          <h2 class="showcase-article__h2 col-2">Our creations</h2>
+          <!-- showcase-article__linked-card -->
+          <div class="showcase-article__linked-card">
+            <picture>
+              <source
+                media="(max-width: 940.98px)"
+                srcset="./images/mobile/image-deep-earth.jpg"
+              />
+              <source srcset="./images/desktop/image-deep-earth.jpg" />
+              <!-- showcase-article__linked-card-bg -->
+              <img
+                src="./images/mobile/image-deep-earth.jpg"
+                class="showcase-article__linked-card-bg"
+              />
+            </picture>
+            <!-- showcase-article__linked-card-p -->
+            <div class="showcase-article__linked-card-p">Deep earth</div>
+          </div>
+          <div class="showcase-article__linked-card">
+            <picture>
+              <source
+                media="(max-width: 940.98px)"
+                srcset="./images/mobile/image-night-arcade.jpg"
+              />
+              <source srcset="./images/desktop/image-night-arcade.jpg" />
+              <!-- showcase-article__linked-card-bg -->
+              <img
+                src="./images/mobile/image-night-arcade.jpg"
+                class="showcase-article__linked-card-bg"
+              />
+            </picture>
+            <!-- showcase-article__linked-card-p -->
+            <div class="showcase-article__linked-card-p">Night Arcade</div>
+          </div>
+          <div class="showcase-article__linked-card">
+            <picture>
+              <source
+                media="(max-width: 940.98px)"
+                srcset="./images/mobile/image-soccer-team.jpg"
+              />
+              <source srcset="./images/desktop/image-soccer-team.jpg" />
+              <!-- showcase-article__linked-card-bg -->
+              <img
+                src="./images/mobile/image-soccer-team.jpg"
+                class="showcase-article__linked-card-bg"
+              />
+            </picture>
+            <!-- showcase-article__linked-card-p -->
+            <div class="showcase-article__linked-card-p">Soccer team vr</div>
+          </div>
+          <div class="showcase-article__linked-card">
+            <picture>
+              <source
+                media="(max-width: 940.98px)"
+                srcset="./images/mobile/image-grid.jpg"
+              />
+              <source srcset="./images/desktop/image-grid.jpg" />
+              <!-- showcase-article__linked-card-bg -->
+              <img
+                src="./images/mobile/image-grid.jpg"
+                class="showcase-article__linked-card-bg"
+              />
+            </picture>
+            <!-- showcase-article__linked-card-p -->
+            <div class="showcase-article__linked-card-p">The grid</div>
+          </div>
+          <div class="showcase-article__linked-card">
+            <picture>
+              <source
+                media="(max-width: 940.98px)"
+                srcset="./images/mobile/image-from-above.jpg"
+              />
+              <source srcset="./images/desktop/image-from-above.jpg" />
+              <!-- showcase-article__linked-card-bg -->
+              <img
+                src="./images/mobile/image-from-above.jpg"
+                class="showcase-article__linked-card-bg"
+              />
+            </picture>
+            <!-- showcase-article__linked-card-p -->
+            <div class="showcase-article__linked-card-p">From up above vr</div>
+          </div>
+          <div class="showcase-article__linked-card">
+            <picture>
+              <source
+                media="(max-width: 940.98px)"
+                srcset="./images/mobile/image-pocket-borealis.jpg"
+              />
+              <source srcset="./images/desktop/image-pocket-borealis.jpg" />
+              <!-- showcase-article__linked-card-bg -->
+              <img
+                src="./images/mobile/image-pocket-borealis.jpg"
+                class="showcase-article__linked-card-bg"
+              />
+            </picture>
+            <!-- showcase-article__linked-card-p -->
+            <div class="showcase-article__linked-card-p">Pocket Borealis</div>
+          </div>
+          <div class="showcase-article__linked-card">
+            <picture>
+              <source
+                media="(max-width: 940.98px)"
+                srcset="./images/mobile/image-curiosity.jpg"
+              />
+              <source srcset="./images/desktop/image-curiosity.jpg" />
+              <!-- showcase-article__linked-card-bg -->
+              <img
+                src="./images/mobile/image-curiosity.jpg"
+                class="showcase-article__linked-card-bg"
+              />
+            </picture>
+            <!-- showcase-article__linked-card-p -->
+            <div class="showcase-article__linked-card-p">The curiosity</div>
+          </div>
+          <div class="showcase-article__linked-card">
+            <picture>
+              <source
+                media="(max-width: 940.98px)"
+                srcset="./images/mobile/image-fisheye.jpg"
+              />
+              <source srcset="./images/desktop/image-fisheye.jpg" />
+              <!-- showcase-article__linked-card-bg -->
+              <img
+                src="./images/mobile/image-fisheye.jpg"
+                class="showcase-article__linked-card-bg"
+              />
+            </picture>
+            <!-- showcase-article__linked-card-p -->
+            <div class="showcase-article__linked-card-p">Make it fisheye</div>
+          </div>
+          <!-- showcase-article__btn col-1-->
+          <a href="" class="showcase-article__btn col1">See all</a>
+        </div>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <!-- .logo -->
+      <img src="./images/logo.svg" alt="loopside logo" class="logo" />
+      <!-- footer__socials -->
+      <ul class="footer__socials">
+        <!-- footer__socials-item -->
+        <li class="footer__socials-item">
+          <!-- footer__social -->
+          <a href="" aria-label="facebook" class="footer-social">
+            <img
+              src="./images/icon-facebook.svg"
+              alt="facebook social"
+              class="footer-social-img"
+            />
+          </a>
+        </li>
+        <li class="footer__socials-item">
+          <!-- footer__social -->
+          <a href="" aria-label="twitter" class="footer-social">
+            <img
+              src="./images/icon-twitter.svg"
+              alt="twitter social"
+              class="footer-social-img"
+            />
+          </a>
+        </li>
+        <li class="footer__socials-item">
+          <!-- footer__social -->
+          <a href="" aria-label="pinterest" class="footer-social">
+            <img
+              src="./images/icon-pinterest.svg"
+              alt="pinterest social"
+              class="footer-social-img"
+            />
+          </a>
+        </li>
+        <li class="footer__socials-item">
+          <!-- footer__social -->
+          <a href="" aria-label="instagram" class="footer-social">
+            <img
+              src="./images/icon-instagram.svg"
+              alt="instagram social"
+              class="footer-social-img"
+            />
+          </a>
+        </li>
+      </ul>
+      <!-- footer-nav -->
+      <ul class="footer-nav">
+        <!-- footer-nav__item -->
+        <li class="footer-nav__item">
+          <!-- footer-nav__link -->
+          <a class="footer-nav__link">About</a>
+        </li>
+        <li class="footer-nav__item">
+          <!-- footer-nav__link -->
+          <a class="footer-nav__link">Careers</a>
+        </li>
+        <li class="footer-nav__item">
+          <!-- footer-nav__link -->
+          <a class="footer-nav__link">Events</a>
+        </li>
+        <li class="footer-nav__item">
+          <!-- footer-nav__link -->
+          <a class="footer-nav__link">Products</a>
+        </li>
+        <li class="footer-nav__item">
+          <!-- footer-nav__link -->
+          <a class="footer-nav__link">Support</a>
+        </li>
+      </ul>
+      <!-- footer-nav__copyright -->
+      <small class="footer-nav__copyright"
+        >© 2021 Loopstudios. All rights reserved.</small
+      >
+    </footer>
   </body>
 </html>

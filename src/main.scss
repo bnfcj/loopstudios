@@ -1,15 +1,8 @@
-// Root
-@use "page";
-// Layout
+@use "_header.scss";
+@use "_footer";
+@use "grid--8-col";
 @use "inner";
-@use "grid";
-@use "grid--center";
-// Header
-@use "h1";
-@use "header__hero-img";
-@use "header";
-@use "nav-primary";
-@use "nav-primary__btn";
-// Reusable Blocks
-@use "logo";
-@use "nav-links";
+@use "intro-article__body";
+@use "page";
+@use "primary-nav";
+@use "showcase-article";
